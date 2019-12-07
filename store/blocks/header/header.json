@@ -21,16 +21,16 @@
 
   "header-row#1-desktop": {
     "children": [
-      "notification.bar#home"
+      "rich-text#notification.bar"
     ],
     "props": {
       "fullWidth": "true",
       "inverted":"true"
     }
   },
-  "notification.bar#home": {
+  "rich-text#notification.bar": {
     "props": {
-      "content": "*Frete Grátis Brasil* REGRAS AQUI | Motoboy São Paulo"
+      "text": "**Frete Grátis Brasil** REGRAS AQUI | Motoboy São Paulo"
     }
   },
   "header-row#2-desktop": {
