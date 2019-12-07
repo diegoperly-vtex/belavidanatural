@@ -4,7 +4,6 @@
       "carousel#home",
       "flex-layout.row#deals",
       "shelf#home",
-      "info-card#home",
       "newsletter"
     ]
   },
@@ -14,10 +13,6 @@
       "banners": [
         {
           "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
-        },
-        {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
           "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
         }
       ],
@@ -44,7 +39,7 @@
   },
   "product-summary#home": {
     "props": {
-      "isOneClickBuy": false,
+      "isOneClickBuy": true,
       "showBadge": true,
       "badgeText": "",
       "buyButtonText": "Comprar",
@@ -61,19 +56,6 @@
         "showSku": true,
         "showProductReference": true
       }
-    }
-  },
-  "info-card#home": {
-    "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
     }
   }
 }
