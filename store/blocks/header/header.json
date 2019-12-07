@@ -15,54 +15,40 @@
     "children": [
       "header-row#1-desktop",
       "header-row#2-desktop",
-      "header-row#3-desktop",
-      "header-row#4-desktop"
+      "header-row#3-desktop"
     ]
   },
 
   "header-row#1-desktop": {
     "children": [
-      "telemarketing"
-    ],
-    "props": {
-      "fullWidth": true
-    }
-  },
-
-  "header-row#2-desktop": {
-    "children": [
       "notification.bar#home"
     ],
     "props": {
-      "fullWidth": "true"
+      "fullWidth": "true",
+      "inverted":"true"
     }
   },
   "notification.bar#home": {
     "props": {
-      "content": "SELECTED ITEMS ON SALE! CHECK IT OUT!"
+      "content": "*Frete Grátis Brasil* REGRAS AQUI | Motoboy São Paulo"
+    }
+  },
+  "header-row#2-desktop": {
+    "children": [
+      "logo#desktop",
+      "search-bar",
+      "header-spacer",
+      "login",
+      "minicart"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "main-header"
     }
   },
   "header-row#3-desktop": {
     "children": [
-      "vtex.menu@2.x:menu#websites",
-      "header-spacer",
-      "vtex.menu@2.x:menu#institutional"
-    ],
-    "props": {
-      "blockClass": "menu-link",
-      "inverted": "true"
-    }
-  },
-  "header-row#4-desktop": {
-    "children": [
-      "logo#desktop",
-      "vtex.menu@2.x:menu#category-menu",
-      "header-spacer",
-      "header-spacer",
-      "search-bar",
-      "locale-switcher",
-      "login",
-      "minicart"
+      "vtex.menu@2.x:menu#category-menu"
     ],
     "props": {
       "sticky": true,
@@ -74,7 +60,7 @@
       "title": "Logo",
       "href": "/",
       "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
-      "width": "180"
+      "width": "132"
     }
   },
 
@@ -83,12 +69,12 @@
       "product-summary"
     ],
     "props": {
-      "type": "popup",
+      "type": "slider",
       "showRemoveButton": true,
       "showDiscount": true,
       "showSku": true,
       "labelMiniCartEmpty": "",
-      "labelButtonFinishShopping": "Go to checkout",
+      "labelButtonFinishShopping": "Fechar Compra",
       "enableQuantitySelector": true,
       "maxQuantity": 10,
       "labelClasses": "gray"
