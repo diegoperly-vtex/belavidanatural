@@ -108,9 +108,13 @@
 
   "menu#drawer": {
     "children": [
-      "menu-item#category-clothing",
-      "menu-item#category-decoration",
-      "menu-item#custom-sale"
+      "menu-item#alimentos-naturais",
+      "menu-item#argila-medicinal",
+      "menu-item#cosmeticos-naturais",
+      "menu-item#difusor-de-aroma",
+      "menu-item#oleos-essenciais",
+      "menu-item#oleos-vegetais",
+      "menu-item#pedras-cristais"
     ],
     "props": {
       "orientation": "vertical"

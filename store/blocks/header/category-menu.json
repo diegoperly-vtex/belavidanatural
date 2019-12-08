@@ -1,140 +1,277 @@
 {
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
-      "menu-item#category-clothing",
-      "menu-item#category-decoration",
-      "menu-item#custom-sale"
+      "menu-item#todos-departamentos",
+      "menu-item#alimentos-naturais",
+      "menu-item#argila-medicinal",
+      "menu-item#cosmeticos-naturais",
+      "menu-item#difusor-de-aroma",
+      "menu-item#oleos-essenciais",
+      "menu-item#oleos-vegetais",
+      "menu-item#pedras-cristais"
     ]
   },
-  "menu-item#category-clothing": {
+  "menu-item#todos-departamentos": {
     "props": {
-      "id": "menu-item-category-clothing",
+      "id": "menu-item-todos-departamentos",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/clothing/",
+        "href": "",
         "noFollow": true,
-        "tagTitle": "Clothing",
-        "text": "Clothing"
+        "tagTitle": "TODOS OS DEPARTAMENTOS",
+        "text": "TODOS OS DEPARTAMENTOS"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#category-clothing"
+      "vtex.menu@2.x:submenu#todos-departamentos"
     ]
   },
-  "vtex.menu@2.x:submenu#category-clothing": {
+  "vtex.menu@2.x:submenu#todos-departamentos": {
     "props": {
       "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#category-clothing"
+      "vtex.menu@2.x:menu#todos-departamentos"
     ]
   },
-  "vtex.menu@2.x:menu#category-clothing": {
+  "vtex.menu@2.x:menu#todos-departamentos": {
     "props": {
       "orientation": "vertical"
     },
-    "children": [
-      "menu-item#category-clothing-hats",
-      "menu-item#category-clothing-shoes",
-      "menu-item#category-clothing-bags"
-    ]
+    "children": []
   },
-  "menu-item#category-clothing-hats": {
+
+  "menu-item#alimentos-naturais": {
     "props": {
-      "id": "menu-item-category-clothing-hats",
+      "id": "menu-item-alimentos-naturais",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "/apparel---accessories/hats/",
+        "href": "/alimentos-naturais",
         "noFollow": true,
-        "tagTitle": "Hats",
-        "text": "Hats"
-      }
-    }
-  },
-  "menu-item#category-clothing-shoes": {
-    "props": {
-      "id": "menu-item-category-clothing-shoes",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/shoes/",
-        "noFollow": true,
-        "tagTitle": "Shoes",
-        "text": "Shoes"
-      }
-    }
-  },
-  "menu-item#category-clothing-bags": {
-    "props": {
-      "id": "menu-item-category-clothing-bags",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/apparel---accessories/bags/",
-        "noFollow": true,
-        "tagTitle": "Bags",
-        "text": "Bags"
-      }
-    }
-  },
-  "menu-item#category-decoration": {
-    "props": {
-      "id": "menu-item-category-decoration",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/home---decor/",
-        "noFollow": true,
-        "tagTitle": "Decoration",
-        "text": "Decoration"
-      }
-    }
-  },
-  "menu-item#custom-sale": {
-    "props": {
-      "id": "menu-item-custom-sale",
-      "type": "custom",
-      "iconId": null,
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "/sale/d",
-        "noFollow": true,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Alimentos Naturais",
+        "text": "Alimentos Naturais"
       }
     },
     "blocks": [
-      "vtex.menu@2.x:submenu#custom-sale"
+      "vtex.menu@2.x:submenu#alimentos-naturais"
     ]
   },
-  "vtex.menu@2.x:submenu#custom-sale": {
+  "vtex.menu@2.x:submenu#alimentos-naturais": {
     "props": {
-      "width": "100%"
+      "width": "auto"
     },
     "children": [
-      "vtex.menu@2.x:menu#custom-sale"
+      "vtex.menu@2.x:menu#alimentos-naturais"
     ]
   },
-  "vtex.menu@2.x:menu#custom-sale": {
+  "vtex.menu@2.x:menu#alimentos-naturais": {
     "props": {
       "orientation": "vertical"
     },
-    "children": [
-      "menu-item#category-clothing-hats",
-      "menu-item#category-clothing-shoes"
+    "children": []
+  },
+  
+  "menu-item#argila-medicinal": {
+    "props": {
+      "id": "menu-item-argila-medicinal",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/argila-medicinal",
+        "noFollow": true,
+        "tagTitle": "Argila Medicinal",
+        "text": "Argila Medicinal"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#argila-medicinal"
     ]
+  },
+  "vtex.menu@2.x:submenu#argila-medicinal": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#argila-medicinal"
+    ]
+  },
+  "vtex.menu@2.x:menu#argila-medicinal": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+
+  "menu-item#cosmeticos-naturais": {
+    "props": {
+      "id": "menu-item-cosmeticos-naturais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/cosmeticos-naturais",
+        "noFollow": true,
+        "tagTitle": "Cosméticos Naturais",
+        "text": "Cosméticos Naturais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#cosmeticos-naturais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#cosmeticos-naturais": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#cosmeticos-naturais"
+    ]
+  },
+  "vtex.menu@2.x:menu#cosmeticos-naturais": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  
+  "menu-item#difusor-de-aroma": {
+    "props": {
+      "id": "menu-item-difusor-de-aroma",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/difusor-de-aroma",
+        "noFollow": true,
+        "tagTitle": "Difusor de Aroma",
+        "text": "Difusor de Aroma"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#difusor-de-aroma"
+    ]
+  },
+  "vtex.menu@2.x:submenu#difusor-de-aroma": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#difusor-de-aroma"
+    ]
+  },
+  "vtex.menu@2.x:menu#difusor-de-aroma": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+
+  "menu-item#oleos-essenciais": {
+    "props": {
+      "id": "menu-item-oleos-essenciais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oleos-essenciais",
+        "noFollow": true,
+        "tagTitle": "Óleos Essenciais",
+        "text": "Óleos Essenciais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#oleos-essenciais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#oleos-essenciais": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#oleos-essenciais"
+    ]
+  },
+  "vtex.menu@2.x:menu#oleos-essenciais": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+  
+  "menu-item#oleos-vegetais": {
+    "props": {
+      "id": "menu-item-oleos-vegetais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/oleos-vegetais",
+        "noFollow": true,
+        "tagTitle": "Óleos Vegetais",
+        "text": "Óleos Vegetais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#oleos-vegetais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#oleos-vegetais": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#oleos-vegetais"
+    ]
+  },
+  "vtex.menu@2.x:menu#oleos-vegetais": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+
+  "menu-item#pedras-cristais": {
+    "props": {
+      "id": "menu-item-pedras-cristais",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/pedras-e-cristais",
+        "noFollow": true,
+        "tagTitle": "Pedras e Cristais",
+        "text": "Pedras e Cristais"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#pedras-cristais"
+    ]
+  },
+  "vtex.menu@2.x:submenu#pedras-cristais": {
+    "props": {
+      "width": "auto"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#pedras-cristais"
+    ]
+  },
+  "vtex.menu@2.x:menu#pedras-cristais": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": []
   }
 }
