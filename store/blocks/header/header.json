@@ -36,6 +36,7 @@
   "header-row#2-desktop": {
     "children": [
       "logo#desktop",
+      "header-spacer",
       "search-bar",
       "header-spacer",
       "login",
