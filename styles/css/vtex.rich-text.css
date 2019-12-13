@@ -3,11 +3,17 @@
   text-align: center;
   justify-content: center;
 }
-
+.paragraph{
+  line-height:0;
+}
 .container--deals .paragraph {
   margin: 0;
 }
-
+.container--notification-bar{
+  display:block;
+  width:100%;
+  text-align:center;
+}
 .container--link {
   justify-content: center;
 }

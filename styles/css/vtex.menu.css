@@ -1,0 +1,7 @@
+.styledLinkContainer{
+    width:100px;
+}
+.styledLink :global(.nowrap){
+    white-space:initial;
+    text-align:center;
+}

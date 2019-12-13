@@ -30,7 +30,9 @@
   },
   "rich-text#notification.bar": {
     "props": {
-      "text": "**Frete Grátis Brasil** REGRAS AQUI | Motoboy São Paulo"
+      "text": "**Frete Grátis Brasil** REGRAS AQUI | Motoboy São Paulo",
+      "textColor": "c-on-emphasis",
+      "blockClass":"notification-bar"
     }
   },
   "header-row#2-desktop": {
