@@ -1,7 +1,10 @@
 .flexRow--deals {
   padding: 14px 0px;
 }
-
+.flexRow--right{
+  float:right;
+  margin:15px;
+}
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
 }
