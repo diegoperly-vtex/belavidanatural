@@ -1,13 +1,18 @@
 .container--deals {
-  color: #ffffff;
+  color: #5b5b5b;
   text-align: center;
   justify-content: center;
+  text-transform:uppercase;
 }
 .paragraph{
-  line-height:0;
+  line-height:1;
 }
 .container--deals .paragraph {
-  margin: 0;
+  margin:6px;
+  min-width:150px;
+}
+.paragraph--notification-bar{
+  line-height:0;
 }
 .container--notification-bar{
   display:block;
