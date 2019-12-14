@@ -3,7 +3,11 @@
     "blocks": [
       "carousel#home",
       "flex-layout.row#deals",
-      "shelf#home",
+      "shelf#home1",
+      "flex-layout.row#banners-home",
+      "shelf#home2",
+      "flex-layout.row#banners-home-full",
+      "shelf#home3",
       "newsletter"
     ]
   },
@@ -21,7 +25,7 @@
       "showDots": true
     }
   },
-  "shelf#home": {
+  "shelf#home1": {
     "blocks": ["product-summary.shelf"],
     "props": {
       "orderBy": "OrderByTopSaleDESC",
@@ -33,7 +37,7 @@
         "minItemsPerPage": 1.5,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top sellers"
+        "titleText": "NOVIDADES"
       }
     }
   },
@@ -56,6 +60,90 @@
         "showSku": true,
         "showProductReference": true
       }
+    }
+  },
+  "shelf#home2": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "MAIS VENDIDOS"
+      }
+    }
+  },
+  "shelf#home3": {
+    "blocks": ["product-summary.shelf"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "paginationDotsVisibility": "desktopOnly",
+      "skusFilter": "FIRST_AVAILABLE",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 5,
+        "minItemsPerPage": 1.5,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "OFERTAS"
+      }
+    }
+  },
+  "flex-layout.row#banners-home":{
+    "children": [
+      "flex-layout.col#banner-home1",
+      "flex-layout.col#banner-home2",
+      "flex-layout.col#banner-home3"
+    ]
+  },
+  "flex-layout.col#banner-home1":{
+    "children": [
+      "image#banner-home1"
+    ]
+  },
+  "flex-layout.col#banner-home2":{
+    "children": [
+      "image#banner-home2"
+    ]
+  },
+  "flex-layout.col#banner-home3":{
+    "children": [
+      "image#banner-home3"
+    ]
+  },
+  "image#banner-home1":{
+    "props": {
+      "src": "https://belavidanatural.vteximg.com.br/arquivos/bannerhome1.jpg"
+    }
+  },
+  "image#banner-home2":{
+    "props": {
+      "src": "https://belavidanatural.vteximg.com.br/arquivos/bannerhome3.jpg"
+    }
+  },
+  "image#banner-home3":{
+    "props": {
+      "src": "https://belavidanatural.vteximg.com.br/arquivos/bannerhome2.jpg"
+    }
+  },
+  "flex-layout.row#banners-home-full":{
+    "children": [
+      "flex-layout.col#banner-home4"
+    ]
+  },
+  "flex-layout.col#banner-home4":{
+    "children": [
+      "image#banner-home4"
+    ]
+  },
+  "image#banner-home4":{
+    "props": {
+      "src": "https://belavidanatural.vteximg.com.br/arquivos/bannerhome4.jpg"
     }
   }
 }
