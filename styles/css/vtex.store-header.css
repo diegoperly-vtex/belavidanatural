@@ -5,7 +5,9 @@
 .headerRow--main-header .headerRowBackground {
   background-color: #F0F0F0;
 }
-
+.headerRowContainer{
+  justify-content: center;
+}
 .headerRow--main-header :global(.vtex-menu-2-x-styledLink)  {
   color: #727273;
   font-size: 14px;

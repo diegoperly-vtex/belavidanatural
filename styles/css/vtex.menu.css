@@ -1,10 +1,16 @@
-.styledLinkContainer{
+.menuContainer--mainMenu .menuItem .styledLinkContainer{
     width:90px;
 }
-.styledLink :global(.nowrap){
+.menuContainer--mainMenu .menuItem .styledLinkContainer .styledLink :global(.nowrap){
     white-space:initial;
     text-align:center;
 }
-.menuContainer {
-    justify-content: center;
+.submenu {
+    justify-content: left;
+    width: 300px;
+}
+.submenu .styledLinkContainer,
+.submenu .menuContainerNav,
+.menuContainer--mainMenu .submenu .menuItem .styledLinkContainer{
+    width:100%;
 }
