@@ -62,7 +62,7 @@
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo.png",
+      "url": "https://belavidanatural.vteximg.com.br/arquivos/belavidanatural.png",
       "width": "132"
     }
   },
@@ -86,7 +86,8 @@
 
   "header-layout.mobile": {
     "children": [
-      "header-row#1-mobile"
+      "header-row#1-mobile",
+      "header-row#2-mobile"
     ]
   },
   "header-row#1-mobile": {
@@ -104,31 +105,24 @@
   },
   "drawer": {
     "children": [
-      "menu#drawer"
+      "vtex.menu@2.x:menu#category-menu-mobile"
     ]
-  },
-
-  "menu#drawer": {
-    "children": [
-      "menu-item#alimentos-naturais",
-      "menu-item#argila-medicinal",
-      "menu-item#cosmeticos-naturais",
-      "menu-item#difusor-de-aroma",
-      "menu-item#oleos-essenciais",
-      "menu-item#oleos-vegetais",
-      "menu-item#pedras-cristais"
-    ],
-    "props": {
-      "orientation": "vertical"
-    }
   },
 
   "logo#mobile": {
     "props": {
       "title": "Logo",
       "href": "/",
-      "url": "https://storecomponents.vteximg.com.br/arquivos/store-theme-logo-mobile.png",
+      "url": "https://belavidanatural.vteximg.com.br/arquivos/belavidanatural.png",
       "width": "70"
+    }
+  },
+  "header-row#2-mobile": {
+    "children": [
+      "search-bar"
+    ],
+    "props": {
+      "sticky": true
     }
   }
 }
