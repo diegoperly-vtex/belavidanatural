@@ -1,7 +1,10 @@
 .styledLinkContainer{
-    width:100px;
+    width:90px;
 }
 .styledLink :global(.nowrap){
     white-space:initial;
     text-align:center;
+}
+.menuContainer {
+    justify-content: center;
 }
