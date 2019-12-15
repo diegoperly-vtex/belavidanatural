@@ -72,12 +72,12 @@
       "product-summary"
     ],
     "props": {
-      "type": "slider",
+      "type": "sidebar",
       "showRemoveButton": true,
       "showDiscount": true,
       "showSku": true,
       "labelMiniCartEmpty": "",
-      "labelButtonFinishShopping": "Fechar Compra",
+      "labelButtonFinishShopping": "Ir para o Carrinho",
       "enableQuantitySelector": true,
       "maxQuantity": 10,
       "labelClasses": "gray"
