@@ -56,9 +56,9 @@
       "showInstallments": true,
       "showSavings": true,
       "name": {
-        "showBrandName": true,
-        "showSku": true,
-        "showProductReference": true
+        "showBrandName": false,
+        "showSku": false,
+        "showProductReference": false
       }
     }
   },
@@ -138,12 +138,21 @@
   },
   "flex-layout.col#banner-home4":{
     "children": [
-      "image#banner-home4"
+      "carousel#banner-home4"
     ]
   },
-  "image#banner-home4":{
+  "carousel#banner-home4": {
     "props": {
-      "src": "https://belavidanatural.vteximg.com.br/arquivos/bannerhome4.jpg"
+      "autoplay": false,
+      "banners": [
+        {
+          "image":"https://belavidanatural.vteximg.com.br/arquivos/bannerhome4.jpg",
+          "mobileImage":"https://belavidanatural.vteximg.com.br/arquivos/bannerhome4.jpg"
+        }
+      ],
+      "height": 385,
+      "showArrows": false,
+      "showDots": false
     }
   }
 }
