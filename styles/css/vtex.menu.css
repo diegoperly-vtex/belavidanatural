@@ -5,6 +5,9 @@
     white-space:initial;
     text-align:center;
 }
+.menuContainer--mainMenu .menuItem:first-child .styledLinkContainer .styledLink :global(.nowrap){
+    text-align:left;
+}
 .submenu {
     justify-content: left;
     width: 300px;

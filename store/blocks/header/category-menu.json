@@ -219,7 +219,11 @@
     ]
   },
   "vtex.menu@2.x:menu#todos-departamentos": {
-    "children": []
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
   },
 
   "menu-item#alimentos-naturais": {
@@ -250,7 +254,11 @@
     ]
   },
   "vtex.menu@2.x:menu#alimentos-naturais": {
-    "children": []
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
   },
   
   "menu-item#argila-medicinal": {
@@ -281,7 +289,11 @@
     ]
   },
   "vtex.menu@2.x:menu#argila-medicinal": {
-    "children": []
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
   },
 
   "menu-item#cosmeticos-naturais": {
@@ -312,7 +324,11 @@
     ]
   },
   "vtex.menu@2.x:menu#cosmeticos-naturais": {
-    "children": []
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
   },
   
   "menu-item#difusor-de-aroma": {
@@ -343,7 +359,11 @@
     ]
   },
   "vtex.menu@2.x:menu#difusor-de-aroma": {
-    "children": []
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
   },
 
   "menu-item#oleos-essenciais": {
@@ -374,7 +394,11 @@
     ]
   },
   "vtex.menu@2.x:menu#oleos-essenciais": {
-    "children": []
+    "children": [],
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    }
   },
   
   "menu-item#oleos-vegetais": {
@@ -406,6 +430,7 @@
   },
   "vtex.menu@2.x:menu#oleos-vegetais": {
     "props": {
+      "width": "auto",
       "orientation": "vertical"
     },
     "children": []
@@ -440,6 +465,7 @@
   },
   "vtex.menu@2.x:menu#pedras-cristais": {
     "props": {
+      "width": "auto",
       "orientation": "vertical"
     },
     "children": []

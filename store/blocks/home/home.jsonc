@@ -40,34 +40,6 @@
       }
     }
   },
-  "product-summary.shelf": {
-    "props": {
-      "isOneClickBuy": true,
-      "showBadge": true,
-      "badgeText": "",
-      "buyButtonText": "Comprar",
-      "displayBuyButton": "displayButtonAlways",
-      "showCollections": false,
-      "showListPrice": true,
-      "labelSellingPrice": "De:",
-      "labelListPrice": "Por:",
-      "showLabels": false,
-      "showInstallments": true,
-      "showSavings": true,
-      "name": {
-        "showBrandName": false,
-        "showSku": false,
-        "showProductReference": false
-      }
-    },
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-space",
-      "product-summary-price",
-      "product-summary-buy-button"
-    ]
-  },
   "shelf#home2": {
     "blocks": ["product-summary.shelf"],
     "props": {
@@ -98,6 +70,30 @@
         "arrows": true,
         "titleText": "OFERTAS"
       }
+    }
+  },
+  "product-summary.shelf": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
+  },
+  "product-summary-image": {
+    "props": {
+      "showBadge": false
+    }
+  },
+  "product-summary-buy-button": {
+    "props": {
+      "buyButtonText": "Comprar"
+    }
+  },
+  "product-summary-price": {
+    "props": {
+      "showLabels": false
     }
   },
   "flex-layout.row#banners-home":{

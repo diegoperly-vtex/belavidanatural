@@ -8,7 +8,9 @@
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
 }
-
+.flexColChild{
+  height:auto !important;
+}
 .flexRow--deals .flexCol {
   align-items: center;
 }
