@@ -7,8 +7,7 @@
       "flex-layout.row#banners-home",
       "shelf#home2",
       "flex-layout.row#banners-home-full",
-      "shelf#home3",
-      "newsletter"
+      "shelf#home3"
     ]
   },
   "carousel#home": {
@@ -41,7 +40,7 @@
       }
     }
   },
-  "product-summary#home": {
+  "product-summary.shelf": {
     "props": {
       "isOneClickBuy": true,
       "showBadge": true,
@@ -52,7 +51,7 @@
       "showListPrice": true,
       "labelSellingPrice": "De:",
       "labelListPrice": "Por:",
-      "showLabels": true,
+      "showLabels": false,
       "showInstallments": true,
       "showSavings": true,
       "name": {
@@ -60,7 +59,14 @@
         "showSku": false,
         "showProductReference": false
       }
-    }
+    },
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
+    ]
   },
   "shelf#home2": {
     "blocks": ["product-summary.shelf"],

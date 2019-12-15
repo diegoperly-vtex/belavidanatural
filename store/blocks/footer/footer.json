@@ -7,12 +7,22 @@
   },
   "footer-layout.desktop": {
     "children": [
+      "newsletter",
       "flex-layout.row#footer-1-desktop",
       "flex-layout.row#footer-2-desktop",
       "flex-layout.row#footer-3-desktop"
     ]
   },
 
+  "newsletter": {
+    "props": {
+      "label": "Assine nossa newsletter",
+      "placeholder": "Seu email",
+      "submit": "Enviar",
+      "confirmationTitle": "Obrigado",
+      "confirmationText": "Seu email foi registrado"
+    }
+  },
   "flex-layout.row#footer-1-desktop": {
     "children": [
       "flex-layout.col#col-footer-1",
@@ -149,6 +159,7 @@
 
   "footer-layout.mobile": {
     "children": [
+      "newsletter",
       "flex-layout.row#1-footer-mobile",
       "flex-layout.row#2-footer-mobile"
     ]
