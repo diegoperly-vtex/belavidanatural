@@ -22,7 +22,17 @@
 .container--link {
   justify-content: center;
 }
-
+.image--footer-img{
+  float:left;
+  margin: 10px 5px 0 0;
+}
+.strong--footer-img,
+.link--footer-img{
+  margin:5px 0;
+  display:inline-block;
+  color:#828282;
+  text-decoration:none;
+}
 .container--question {
   justify-content: center;
 }

@@ -41,22 +41,26 @@
   },
   "rich-text#footer-1":{
     "props": {
-      "text": "**HORÁRIO DE ATENDIMENTO**<br>Seg. à Sex. das 9h às 17:30h"
+      "text": "![HORÁRIO DE ATENDIMENTO](https://belavidanatural.vteximg.com.br/arquivos/footer4.jpg) **HORÁRIO DE ATENDIMENTO**<br>Seg. à Sex. das 9h às 17:30h",
+      "blockClass": "footer-img"
     }
   },
   "rich-text#footer-2":{
     "props": {
-      "text": "**CENTRAL DE ATENDIMENTO**<br>(11) 3628-7193"
+      "text": "![CENTRAL DE ATENDIMENTO](https://belavidanatural.vteximg.com.br/arquivos/footer5.jpg) **CENTRAL DE ATENDIMENTO**<br>(11) 3628-7193",
+      "blockClass": "footer-img"
     }
   },
   "rich-text#footer-3":{
     "props": {
-      "text": "**SAC**<br>sac@belavidanatural.com.br"
+      "text": "![SAC](https://belavidanatural.vteximg.com.br/arquivos/footer6.jpg) **SAC** <br> sac@belavidanatural.com.br ",
+      "blockClass": "footer-img"
     }
   },
   "rich-text#footer-4":{
     "props": {
-      "text": "**COMPRE VIA WHATSAPP**<br>(11) 96380-1758"
+      "text": "![COMPRE VIA WHATSAPP](https://belavidanatural.vteximg.com.br/arquivos/footer7.jpg)**COMPRE VIA WHATSAPP**<br>(11) 96380-1758",
+      "blockClass": "footer-img"
     }
   },
 
