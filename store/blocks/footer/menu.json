@@ -1,72 +1,153 @@
 {
   "vtex.menu@2.x:menu#Footermenu": {
     "props": {
-      "orientation": "vertical"
+      "orientation": "vertical",
+      "blockClass":"menuFooter"
     },
     "children": [
-      "menu-item#news",
-      "menu-item#blackfriday",
-      "menu-item#sale",
-      "menu-item#personalization"
+      "menu-item#politica-de-frete",
+      "menu-item#seguranca",
+      "menu-item#troca-e-devolucao",
+      "menu-item#fale-conosco",
+      "menu-item#listas-prontas",
+      "menu-item#quem-somos",
+      "menu-item#politica",
+      "menu-item#selos",
+      "menu-item#duvidas"
     ]
   },
-  "menu-item#news": {
+  "menu-item#politica-de-frete": {
     "props": {
-      "id": "menu-item-news",
+      "id": "menu-item-politica-de-frete",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/politica-de-frete",
         "noFollow": false,
-        "tagTitle": "News",
-        "text": "News"
+        "tagTitle": "Política de Frete",
+        "text": "Política de Frete"
       }
     }
   },
-  "menu-item#blackfriday": {
+  "menu-item#seguranca": {
     "props": {
-      "id": "menu-item-black-friday",
+      "id": "menu-item-seguranca",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/seguranca",
         "noFollow": false,
-        "tagTitle": "BlackFriday",
-        "text": "Black Friday"
+        "tagTitle": "Segurança",
+        "text": "Segurança"
       }
     }
   },
-  "menu-item#sale": {
+  "menu-item#troca-e-devolucao": {
     "props": {
-      "id": "menu-item-sale",
+      "id": "menu-item-troca-e-devolucao",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/troca-e-devolucao",
         "noFollow": false,
-        "tagTitle": "Sale",
-        "text": "Sale"
+        "tagTitle": "Troca e Devolução",
+        "text": "Troca e Devolução"
       }
     }
   },
-  "menu-item#personalization": {
+  "menu-item#fale-conosco": {
     "props": {
-      "id": "menu-item-personalization",
+      "id": "menu-item-fale-conosco",
       "type": "custom",
       "iconId": null,
       "highlight": false,
       "itemProps": {
         "type": "internal",
-        "href": "#",
+        "href": "/fale-conosco",
         "noFollow": false,
-        "tagTitle": "Personalization",
-        "text": "Personalization"
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
+      }
+    }
+  },
+  "menu-item#listas-prontas": {
+    "props": {
+      "id": "menu-item-listas-prontas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/listas-prontas",
+        "noFollow": false,
+        "tagTitle": "Listas Prontas",
+        "text": "Listas Prontas"
+      }
+    }
+  },
+  "menu-item#quem-somos": {
+    "props": {
+      "id": "menu-item-quem-somos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/quem-somos",
+        "noFollow": false,
+        "tagTitle": "Quem Somos",
+        "text": "Quem Somos"
+      }
+    }
+  },
+  "menu-item#politica": {
+    "props": {
+      "id": "menu-item-politica",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/politica",
+        "noFollow": false,
+        "tagTitle": "Política",
+        "text": "Política"
+      }
+    }
+  },
+  "menu-item#selos": {
+    "props": {
+      "id": "menu-item-selos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/selos",
+        "noFollow": false,
+        "tagTitle": "Selos",
+        "text": "Selos"
+      }
+    }
+  },
+  "menu-item#duvidas": {
+    "props": {
+      "id": "menu-item-duvidas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/duvidas",
+        "noFollow": false,
+        "tagTitle": "Dúvidas",
+        "text": "Dúvidas"
       }
     }
   }

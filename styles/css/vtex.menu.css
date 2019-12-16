@@ -17,3 +17,6 @@
 .menuContainer--mainMenu .submenu .menuItem .styledLinkContainer{
     width:100%;
 }
+.menuContainer--menuFooter .styledLinkContainer{
+    margin:0;
+}

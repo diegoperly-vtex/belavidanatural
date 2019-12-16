@@ -1,7 +1,9 @@
 .row--menu-row {
   padding-right: 24px;
 }
-
+.socialNetworksContainer{
+  margin-top:50px;
+}
 .row--menu-row .rowContainer {
   align-items: flex-start;
 }
