@@ -14,9 +14,15 @@
 }
 .submenu .styledLinkContainer,
 .submenu .menuContainerNav,
-.menuContainer--mainMenu .submenu .menuItem .styledLinkContainer{
+.menuContainer--mainMenu .submenu .menuItem .styledLinkContainer,
+.menuContainerNav--category-menu-mobile,
+.menuContainerNav--category-menu-mobile .menuContainerNav{
     width:100%;
 }
 .menuContainer--menuFooter .styledLinkContainer{
     margin:0;
+}
+.menuContainerNav--category-menu-mobile .menuItem{
+    border-top:1px solid #ccc;
+    padding:5px 0;
 }

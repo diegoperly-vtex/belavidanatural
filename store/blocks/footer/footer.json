@@ -152,13 +152,13 @@
       "image#credits"
     ],
     "props": {
-      "link":"http://www.upnext.com.br",
       "blockClass":"right"
     }
   },
   "image#credits":{
     "props": {
-      "src": "https://belavidanatural.vteximg.com.br/arquivos/footer1.jpg"
+      "src": "https://belavidanatural.vteximg.com.br/arquivos/footer1.jpg",
+      "link":"http://www.upnext.com.br"
     }
   },
 
@@ -166,32 +166,97 @@
     "children": [
       "newsletter",
       "flex-layout.row#1-footer-mobile",
-      "flex-layout.row#2-footer-mobile"
+      "flex-layout.row#2-footer-mobile",
+      "flex-layout.row#3-footer-mobile",
+      "flex-layout.row#4-footer-mobile",
+      "flex-layout.row#5-footer-mobile",
+      "flex-layout.row#6-footer-mobile",
+      "flex-layout.row#7-footer-mobile"
     ]
   },
-  "flex-layout.row#2-footer-mobile": {
-    "children": ["flex-layout.col#footer-1-mobile"],
-    "props": {
-      "blockClass": "payment-methods"
-    }
+  "flex-layout.row#1-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-1-mobile"
+    ]
   },
   "flex-layout.col#footer-1-mobile": {
     "children": [
-      "accepted-payment-methods",
-      "social-networks",
-      "rich-text#footer-mobile"
-    ],
-    "props": {
-      "blockClass": "payment-methods"
-    }
+      "social-networks"
+    ]
   },
-  "flex-layout.row#1-footer-mobile": {
-    "children": ["vtex.menu@2.x:menu#Footermenu"]
+  "flex-layout.row#2-footer-mobile": {
+    "children": [
+      "flex-layout.col#footer-2-mobile"
+    ]
+  },
+  "flex-layout.col#footer-2-mobile":{
+    "children": [
+      "rich-text#footer-5",
+      "vtex.menu@2.x:menu#Footermenu"
+    ]
+  },
+  "flex-layout.row#3-footer-mobile":{
+    "children": [
+      "flex-layout.col#footer-3-mobile"
+    ]
+  },
+  "flex-layout.col#footer-3-mobile":{
+    "children":[
+      "rich-text#footer-1",
+      "rich-text#footer-2",
+      "rich-text#footer-3",
+      "rich-text#footer-4"
+    ]
+  },
+  "flex-layout.row#4-footer-mobile":{
+    "children":[
+      "flex-layout.col#footer-4-mobile"
+    ]
+  },
+  "flex-layout.col#footer-4-mobile":{
+    "children":[
+      "rich-text#footer-6",
+      "image#payment-methods"
+    ]
+  },
+  "flex-layout.row#5-footer-mobile":{
+    "children":[
+      "flex-layout.col#footer-5-mobile"
+    ]
+  },
+  "flex-layout.col#footer-5-mobile":{
+    "children":[
+      "rich-text#footer-7",
+      "image#security"
+    ]
+  },
+  "flex-layout.row#6-footer-mobile":{
+    "children":[
+      "flex-layout.col#footer-6-mobile"
+    ]
+  },
+  "flex-layout.col#footer-6-mobile":{
+    "children":[
+      "rich-text#footer-mobile"
+    ]
   },
   "rich-text#footer-mobile": {
     "props": {
       "text": "Bela Vida Natural - CNPJ: 11.794.165/0001-07 | Centro de Distribuição: R. Prof. Araújo Coelho, 362 - Jd. Líbano - São Paulo - SP 05138-000<br>**Não temos loja física - Retirada de pedidos somente em compras pelo telefone.**",
       "blockClass": "footer"
+    }
+  },
+  "flex-layout.row#7-footer-mobile":{
+    "children":[
+      "flex-layout.col#footer-7-mobile"
+    ]
+  },
+  "flex-layout.col#footer-7-mobile":{
+    "children": [
+      "image#credits"
+    ],
+    "props": {
+      "blockClass":"right"
     }
   }
 }

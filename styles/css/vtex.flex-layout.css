@@ -18,7 +18,9 @@
   max-width: 500px;
   min-width: 230px;
 }
-
+.flexColChild--productCountCol{
+  text-transform:lowercase;
+}
 .flexCol--productCountCol {
   align-items: flex-start;
 }
