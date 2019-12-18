@@ -83,7 +83,7 @@
   },
   "product-summary-image": {
     "props": {
-      "showBadge": false
+      "showBadge": true
     }
   },
   "product-summary-buy-button": {
@@ -93,7 +93,7 @@
   },
   "product-summary-price": {
     "props": {
-      "showLabels": false
+      "showLabels": true
     }
   },
   "flex-layout.row#banners-home":{
