@@ -3,7 +3,7 @@
   font-size: 14px;
 }
 .headerRow--main-header .headerRowBackground {
-  background-color: #F0F0F0;
+  background-color: #ffffff;
 }
 .headerRowContainer{
   justify-content: center;
@@ -15,5 +15,8 @@
 
 .headerRow--main-header-mobile .headerRowBackground {
   padding: 10px 0px;
-  background-color: #F0F0F0;
+  background-color: #ffffff;
+}
+.headerStickyRow--main-header + .headerStickyRow--main-header .headerRowContentContainer--main-header{
+  background: #f0f0f0;
 }
