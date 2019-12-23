@@ -54,3 +54,7 @@
 .menuContainerNav .menuItem a:hover{
     color: #3f419f;
 }
+.menuContainer--mainMenu .menuItem:nth-last-child(-n+3) .submenuContainer > div{
+    left: auto;
+    right: 0;
+}

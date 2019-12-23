@@ -7,7 +7,8 @@
       "menu-item#difusor-de-aroma-mobile",
       "menu-item#oleos-essenciais-mobile",
       "menu-item#oleos-vegetais-mobile",
-      "menu-item#pedras-cristais-mobile"
+      "menu-item#pedras-cristais-mobile",
+      "menu-item#marcas"
     ],
     "props": {
       "orientation": "vertical",
@@ -175,6 +176,29 @@
       "vtex.menu@2.x:menu#pedras-cristais"
     ]
   },
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": true,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas",
+        "noFollow": false,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu.accordion#marcas"
+    ]
+  },
+  "vtex.menu@2.x:submenu.accordion#marcas": {
+    "children": [
+      "vtex.menu@2.x:menu#marcas"
+    ]
+  },
 
   "vtex.menu@2.x:menu#category-menu": {
     "children": [
@@ -185,7 +209,8 @@
       "menu-item#difusor-de-aroma",
       "menu-item#oleos-essenciais",
       "menu-item#oleos-vegetais",
-      "menu-item#pedras-cristais"
+      "menu-item#pedras-cristais",
+      "menu-item#marcas"
     ],
     "props": {
       "blockClass": "mainMenu"
@@ -464,6 +489,41 @@
     ]
   },
   "vtex.menu@2.x:menu#pedras-cristais": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": []
+  },
+
+  "menu-item#marcas": {
+    "props": {
+      "id": "menu-item-marcas",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/marcas",
+        "noFollow": true,
+        "tagTitle": "Marcas",
+        "text": "Marcas"
+      }
+    },
+    "blocks": [
+      "vtex.menu@2.x:submenu#marcas"
+    ]
+  },
+  "vtex.menu@2.x:submenu#marcas": {
+    "props": {
+      "width": "auto",
+      "orientation": "vertical"
+    },
+    "children": [
+      "vtex.menu@2.x:menu#marcas"
+    ]
+  },
+  "vtex.menu@2.x:menu#marcas": {
     "props": {
       "width": "auto",
       "orientation": "vertical"

@@ -85,6 +85,13 @@
   font-weight: 700;
 }
 
+.image--footer-security{
+  display: inline-block;
+  max-width: 150px;
+  vertical-align: middle;
+  margin-right: 1rem;
+}
+
 @media only screen and (min-width: 640px) {
   .container--question .strong {
     font-size: 40px;

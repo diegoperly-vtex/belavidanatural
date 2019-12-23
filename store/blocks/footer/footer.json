@@ -96,7 +96,7 @@
   "flex-layout.col#col-footer-4":{
     "children":[
       "rich-text#footer-7",
-      "image#security",
+      "rich-text#security",
       "social-networks"
     ]
   },
@@ -105,9 +105,10 @@
       "text": "**SEGURANÇA**"
     }
   },
-  "image#security":{
+  "rich-text#security":{
     "props": {
-      "src": "https://belavidanatural.vteximg.com.br/arquivos/footer2.jpg"
+      "text": "[![Ebit](https://newimgebit-a.akamaihd.net/ebitBR/selo/img_25621.png)](http://www.ebit.com.br/Bela-Vida-Natural/selo) [![Safe Browsing Google](https://belavidanatural.vteximg.com.br/arquivos/footer-safeBrowsing.png)](https://www.google.com/transparencyreport/safebrowsing/diagnostic/index.html#url=www.belavidanatural.com.br) ![Lets Encrypt](https://belavidanatural.vteximg.com.br/arquivos/footer-letsEncrypt.png)",
+      "blockClass": "footer-security"
     }
   },
   "social-networks": {
@@ -227,7 +228,7 @@
   "flex-layout.col#footer-5-mobile":{
     "children":[
       "rich-text#footer-7",
-      "image#security"
+      "rich-text#security"
     ]
   },
   "flex-layout.row#6-footer-mobile":{
