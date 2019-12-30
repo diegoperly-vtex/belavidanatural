@@ -12,7 +12,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "orderByField": "OrderByReleaseDateDESC",
+        "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
         "maxItemsPerPage": 10,
         "skusFilter": "FIRST_AVAILABLE"
@@ -24,6 +24,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByTopSaleDESC",
         "skusFilter": "FIRST_AVAILABLE"
       }
     }
@@ -33,6 +34,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByTopSaleDESC",
         "skusFilter": "FIRST_AVAILABLE"
       }
     }
@@ -42,6 +44,7 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
+        "orderByField": "OrderByTopSaleDESC",
         "skusFilter": "FIRST_AVAILABLE"
       }
     }

@@ -36,7 +36,8 @@
       "rich-text#footer-1",
       "rich-text#footer-2",
       "rich-text#footer-3",
-      "rich-text#footer-4"
+      "rich-text#footer-4",
+      "rich-text#whatsapp"
     ]
   },
   "rich-text#footer-1":{
@@ -162,6 +163,12 @@
       "link":"http://www.upnext.com.br"
     }
   },
+  "rich-text#whatsapp":{
+    "props": {
+      "text": "[![Whatsapp](https://i.imgur.com/ryESuZ5.png)](https://api.whatsapp.com/send?l=pt&amp;phone=5511963801758)",
+      "blockClass": "bt-whatsapp"
+    }
+  },
 
   "footer-layout.mobile": {
     "children": [
@@ -206,7 +213,8 @@
       "rich-text#footer-1",
       "rich-text#footer-2",
       "rich-text#footer-3",
-      "rich-text#footer-4"
+      "rich-text#footer-4",
+      "rich-text#whatsapp"
     ]
   },
   "flex-layout.row#4-footer-mobile":{
