@@ -1,8 +1,8 @@
 {
   "store.custom#institucional": {
     "blocks": [
-      "flex-layout.row#institucional-image",
       "flex-layout.row#institucional-title",
+      "flex-layout.row#institucional-image",
       "flex-layout.row#institucional-text"
     ]
   },
