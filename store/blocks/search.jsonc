@@ -3,7 +3,8 @@
     "blocks": ["search-result-layout"],
     "props": {
       "context": {
-        "skusFilter": "FIRST_AVAILABLE"
+        "skusFilter": "FIRST_AVAILABLE",
+        "maxItemsPerPage": 20
       }
     }
   },
@@ -14,7 +15,6 @@
       "context": {
         "orderByField": "OrderByTopSaleDESC",
         "hideUnavailableItems": true,
-        "maxItemsPerPage": 10,
         "skusFilter": "FIRST_AVAILABLE"
       }
     }
@@ -25,7 +25,8 @@
     "props": {
       "context": {
         "orderByField": "OrderByTopSaleDESC",
-        "skusFilter": "FIRST_AVAILABLE"
+        "skusFilter": "FIRST_AVAILABLE",
+        "maxItemsPerPage": 20
       }
     }
   },
@@ -35,7 +36,8 @@
     "props": {
       "context": {
         "orderByField": "OrderByTopSaleDESC",
-        "skusFilter": "FIRST_AVAILABLE"
+        "skusFilter": "FIRST_AVAILABLE",
+        "maxItemsPerPage": 20
       }
     }
   },
@@ -45,7 +47,8 @@
     "props": {
       "context": {
         "orderByField": "OrderByTopSaleDESC",
-        "skusFilter": "FIRST_AVAILABLE"
+        "skusFilter": "FIRST_AVAILABLE",
+        "maxItemsPerPage": 20
       }
     }
   },
