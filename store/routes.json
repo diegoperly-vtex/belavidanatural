@@ -25,5 +25,8 @@
   },
   "store.custom#duvidas": {
     "path": "/duvidas"
+  },
+  "store.custom#institucional": {
+    "path": "/institucional"
   }
 }
