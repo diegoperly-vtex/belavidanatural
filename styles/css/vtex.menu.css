@@ -1,5 +1,6 @@
 .menuContainer--mainMenu .menuItem .styledLinkContainer{
     width:90px;
+    min-height: 64px;
 }
 .menuContainer--mainMenu .menuItem .styledLinkContainer .styledLink :global(.nowrap){
     white-space:initial;
