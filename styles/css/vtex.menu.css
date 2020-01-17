@@ -1,5 +1,7 @@
 .menuContainer--mainMenu .menuItem .styledLinkContainer{
     width:90px;
+}
+.menuContainer--mainMenu .menuItem:last-child .styledLinkContainer:global(.mh6):global(.pv5){
     min-height: 64px;
 }
 .menuContainer--mainMenu .menuItem .styledLinkContainer .styledLink :global(.nowrap){
