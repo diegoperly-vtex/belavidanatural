@@ -14,8 +14,8 @@
   "sandbox#sandbox-content": {
     "props": {
       "width": "100%",
-      "height": "500px",
-      "initialContent": "<h1 id='test'>home</h1>",
+      "min-height": "500px",
+      "initialContent": "<h1>Sandbox</h1>",
       "allowCookies": true
     }
   }

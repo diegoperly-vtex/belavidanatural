@@ -139,5 +139,11 @@
     "props": {
       "recommendation": "view"
     }
+  },
+
+  "product-quantity": {
+    "props": {
+      "warningQuantityThreshold": 15
+    }
   }
 }
