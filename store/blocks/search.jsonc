@@ -230,8 +230,8 @@
       "autoplay": false,
       "banners": [
         {
-          "image": "https://via.placeholder.com/1366x500.png?text=Desktop+Bela+Vida+Natural+Banner",
-          "mobileImage": "https://via.placeholder.com/500x500.png?text=Mobile+Bela+Vida+Natural+Banner"
+          "image": "",
+          "mobileImage": ""
         }
       ],
       "height": "auto",

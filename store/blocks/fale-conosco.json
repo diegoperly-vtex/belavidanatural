@@ -15,7 +15,7 @@
     "props": {
       "width": "100%",
       "min-height": "500px",
-      "initialContent": "Sandbox'",
+      "initialContent": "<h1>sandbox</h1><script>parent.document.getElementsByClassName('vtex-store-components-3-x-label').style.color = 'red';</script>",
       "allowCookies": true,
       "blockClass": "sandboxForm"
     }
