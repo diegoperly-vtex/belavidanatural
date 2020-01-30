@@ -15,8 +15,9 @@
     "props": {
       "width": "100%",
       "min-height": "500px",
-      "initialContent": "<h1>Sandbox</h1>",
-      "allowCookies": true
+      "initialContent": "Sandbox'",
+      "allowCookies": true,
+      "blockClass": "sandboxForm"
     }
   }
 }

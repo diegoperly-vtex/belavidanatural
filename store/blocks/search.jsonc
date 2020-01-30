@@ -64,6 +64,7 @@
   "search-result-layout.desktop": {
     "children": [
       "flex-layout.row#searchbread",
+      "carousel#department-banner",
       "flex-layout.row#searchtitle",
       "flex-layout.row#result"
     ],
@@ -142,6 +143,7 @@
 
   "search-result-layout.mobile": {
     "children": [
+      "carousel#department-banner",
       "flex-layout.row#searchinfomobile",
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
@@ -221,5 +223,22 @@
 
   "gallery": {
     "blocks": ["product-summary.shelf"]
+  },
+
+  "carousel#department-banner": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://via.placeholder.com/1366x500.png?text=Desktop+Bela+Vida+Natural+Banner",
+          "mobileImage": "https://via.placeholder.com/500x500.png?text=Mobile+Bela+Vida+Natural+Banner"
+        }
+      ],
+      "height": "auto",
+      "showArrows": true,
+      "showDots": true
+    }
   }
+
+  
 }

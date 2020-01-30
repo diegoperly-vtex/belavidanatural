@@ -68,6 +68,12 @@
 .specificationsTableContainer{
   padding: 0;
 }
+
+.imageElement--productImageBanner{
+  display: block;
+  margin: 0 auto;
+}
+
 @media only screen and (min-width: 640px) {
   .label {
     font-size: 30px;

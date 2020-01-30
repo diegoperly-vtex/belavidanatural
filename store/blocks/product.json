@@ -2,6 +2,7 @@
   "store.product": {
     "children": [
       "flex-layout.row#product-breadcrumb",
+      "carousel#product-banner",
       "flex-layout.row#product-main",
       "flex-layout.row#description",
       "flex-layout.row#specifications",
@@ -43,20 +44,13 @@
     },
     "children": ["flex-layout.col#stack", "flex-layout.col#right-col"]
   },
-
-  "stack-layout": {
-    "children": [
-      "flex-layout.row#product-image",
-      "product-specification-badges"
-    ]
-  },
-
+  
   "product-specifications": {
     "props": {
       "showSpecifications": false 
     }
   },
-
+  
   "product-specification-badges": {
     "props": {
       "specificationGroupName": "Group",
@@ -65,7 +59,7 @@
       "displayValue": "SPECIFICATION_NAME"
     }
   },
-
+  
   "flex-layout.col#stack": {
     "children": ["stack-layout"],
     "props": {
@@ -73,14 +67,24 @@
       "rowGap": 0
     }
   },
+
+  "stack-layout": {
+    "children": [
+      "flex-layout.row#product-image",
+      "product-specification-badges"
+    ]
+  },
+
   "flex-layout.row#product-image": {
     "children": ["product-images"]
   },
+
   "product-images": {
     "props": {
       "displayThumbnailsArrows": true
     }
   },
+
   "flex-layout.col#right-col": {
     "props": {
       "preventVerticalStretch": true,
@@ -144,6 +148,21 @@
   "product-quantity": {
     "props": {
       "warningQuantityThreshold": 15
+    }
+  },
+  
+  "carousel#product-banner": {
+    "props": {
+      "autoplay": false,
+      "banners": [
+        {
+          "image": "https://via.placeholder.com/1366x500.png?text=Desktop+Bela+Vida+Natural+Banner",
+          "mobileImage": "https://via.placeholder.com/500x500.png?text=Mobile+Bela+Vida+Natural+Banner"
+        }
+      ],
+      "height": "auto",
+      "showArrows": true,
+      "showDots": true
     }
   }
 }
