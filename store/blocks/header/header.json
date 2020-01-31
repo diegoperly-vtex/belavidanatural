@@ -65,7 +65,7 @@
     ],
     "props": {
       "sticky": true,
-      "blockClass": "josiel__ebit"
+      "blockClass": "sandbox__ebit"
     }
   },
   "logo#desktop": {
