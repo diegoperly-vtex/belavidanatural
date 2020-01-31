@@ -15,7 +15,8 @@
     "children": [
       "header-row#1-desktop",
       "header-row#2-desktop",
-      "header-row#3-desktop"
+      "header-row#3-desktop",
+      "header-row#4-desktop"
     ]
   },
 
@@ -56,6 +57,15 @@
     "props": {
       "sticky": true,
       "blockClass": "main-header"
+    }
+  },
+  "header-row#4-desktop": {
+    "children": [
+      "sandbox#sandbox-ebit"
+    ],
+    "props": {
+      "sticky": true,
+      "blockClass": "josiel__ebit"
     }
   },
   "logo#desktop": {
@@ -123,6 +133,14 @@
     ],
     "props": {
       "sticky": true
+    }
+  },
+  "sandbox#sandbox-ebit": {
+    "props": {
+      "width": "100%",
+      "height": "65px",
+      "initialContent": "<a target='_blank' href='https://www.ebitempresa.com.br'><img src='https://www.ebitempresa.com.br/bitrate/banners/b1129255.gif'></a><script>let imageEbit = document.getElementsByTagName('img')[0];imageEbit.style.display = 'block';imageEbit.style.margin = '0 auto';imageEbit.style.marginTop = '5px';</script>",
+      "allowCookies": true
     }
   }
 }
