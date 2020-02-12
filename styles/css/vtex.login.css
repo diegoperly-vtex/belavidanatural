@@ -16,7 +16,10 @@
         font-size: 0;
         display: block;
     }
+    .buttonLink::before{
+        margin: 0;
+    }
     .label::before{
-        margin-right: 0;
+        display: none;
     }
 }
