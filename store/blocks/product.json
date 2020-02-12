@@ -147,7 +147,7 @@
 
   "product-quantity": {
     "props": {
-      "warningQuantityThreshold": 15
+      "warningQuantityThreshold": 10
     }
   },
   

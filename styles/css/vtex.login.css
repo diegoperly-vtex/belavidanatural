@@ -2,7 +2,7 @@
     text-transform:capitalize;
     color: #727273;
 }
-.profile::before, .label::before{
+.profile::before, .label::before, .buttonLink::before{
     content: "";
     display: inline-block;
     width: 16px;

@@ -9,7 +9,16 @@
  */
 {
   "store.orderplaced": {
-    "blocks": ["order-placed"]
+    "blocks": ["rich-text#ebit", "order-placed"]
+  },
+
+  "rich-text#ebit": {
+    "props": {
+      "text": "[![Ebit](https://www.ebitempresa.com.br/bitrate/banners/b1129255.gif)](https://belavidanatural.vtexcommercestable.com.br/checkout/orderPlaced)",
+      "blockClass": "banner-ebit",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER"
+    }
   },
 
   "store.account": {
