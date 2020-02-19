@@ -66,7 +66,8 @@
       "flex-layout.row#searchbread",
       "carousel#department-banner",
       "flex-layout.row#searchtitle",
-      "flex-layout.row#result"
+      "flex-layout.row#result",
+      "rich-text#department-description"
     ],
     "props": {
       "pagination": "show-more",
@@ -148,7 +149,8 @@
       "flex-layout.row#searchbread",
       "flex-layout.row#productCountMobile",
       "flex-layout.row#contentmobile",
-      "flex-layout.row#fetchmore"
+      "flex-layout.row#fetchmore",
+      "rich-text#department-description"
     ],
     "props": {
       "pagination": "show-more",
@@ -238,7 +240,13 @@
       "showArrows": true,
       "showDots": true
     }
-  }
+  },
 
+  "rich-text#department-description": {
+    "props": {
+      "text": "",
+      "blockClass": "department-description"
+    }
+  }
   
 }

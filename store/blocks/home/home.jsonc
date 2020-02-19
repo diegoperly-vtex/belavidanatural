@@ -33,7 +33,7 @@
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 5,
-        "minItemsPerPage": 1.5,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "NOVIDADES"
@@ -49,7 +49,7 @@
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 5,
-        "minItemsPerPage": 1.5,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "MAIS VENDIDOS"
@@ -65,7 +65,7 @@
       "productList": {
         "maxItems": 10,
         "itemsPerPage": 5,
-        "minItemsPerPage": 1.5,
+        "minItemsPerPage": 1,
         "scroll": "BY_PAGE",
         "arrows": true,
         "titleText": "OFERTAS"
