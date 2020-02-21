@@ -5,6 +5,7 @@
       "blockClass":"menuFooter"
     },
     "children": [
+      "menu-item#fale-conosco",
       "menu-item#politica-de-frete",
       "menu-item#seguranca",
       "menu-item#troca-e-devolucao",
@@ -13,6 +14,21 @@
       "menu-item#selos",
       "menu-item#duvidas"
     ]
+  },
+  "menu-item#fale-conosco": {
+    "props": {
+      "id": "menu-item-fale-conosco",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/fale-conosco",
+        "noFollow": false,
+        "tagTitle": "Fale Conosco",
+        "text": "Fale Conosco"
+      }
+    }
   },
   "menu-item#politica-de-frete": {
     "props": {
